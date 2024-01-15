@@ -5,6 +5,11 @@
   <div>
     <h2>{{part.name}}</h2>
     <p>{{part.text}}</p>
+
+    {% if part.image %}
+    <img src ="/img/{{part.image}}" alt "{{part.name}}">
+    {% endif %}
+    
     <ul>
       {% for option in part.options %}
       <li><a href="/story/{{option.target}}">{{option.text}}</a></li>

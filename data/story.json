@@ -20,10 +20,16 @@
     {
       "id": 1,
       "name": "Part 2",
-      "text": "This is part 2",
+      "text": "Choose a weapon",
       "options": [
         {
           "id": 2,
+          "text": "Quicksilver",
+          "image": "Sword.jpg",
+          "target": 0
+        }
+        {
+          "id": 3,
           "text": "Go back to start",
           "target": 0
         }
