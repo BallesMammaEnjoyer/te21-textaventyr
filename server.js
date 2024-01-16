@@ -1,6 +1,7 @@
 const express = require('express')
 const nunjucks = require('nunjucks')
 const bodyParser = require('body-parser')
+const session = require('express-session')
 
 const indexRouter = require('./routes/index')
 
@@ -27,3 +28,12 @@ app.use('/', indexRouter)
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`)
 })
+
+app.use(session({
+  secret: 'supermegahemligmening',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { sameSite: true },
+})
+)
+  

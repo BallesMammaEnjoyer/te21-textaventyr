@@ -17,4 +17,10 @@ router.get('/story/:id', function (req, res) {
   res.render('part.njk', { title: part.name, part: part })
 })
 
+router.post('/username', function (req, res){
+  req.session.username = req.body.username
+  console.log(req.session.username)
+  res.redirect('/story')
+})
+
 module.exports = router
