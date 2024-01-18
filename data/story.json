@@ -21,11 +21,21 @@
       "id": 1,
       "name": "Part 2",
       "text": "Choose a weapon",
-      "image": "sword.jpg", 
+      "image": "weapons.jpg", 
       "options": [
         {
           "id": 2,
-          "text": "Quicksilver Sword",
+          "text": "Dark Sword",
+          "target": 0
+        }
+        {
+          "id": 3,
+          "text": "Gladiator Sword",
+          "target": 0
+        }
+        {
+          "id": 5,
+          "text": "Battle Axe",
           "target": 0
         }
       ]

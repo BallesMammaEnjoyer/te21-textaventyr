@@ -18,6 +18,15 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.use(express.static('public'))
 
+app.use(
+  session({
+    secret: 'JSuTn1qvmGbGNBp2LcRDQvoUIe432vw/nWrlpao1ABk=',
+    resave: false,
+    saveUninitialized: true,
+    cookie: { sameSite: true },
+  })
+)
+
 app.use((req, res, next) => {
   res.locals.url = req.originalUrl
   next()
@@ -28,12 +37,3 @@ app.use('/', indexRouter)
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`)
 })
-
-app.use(session({
-  secret: 'supermegahemligmening',
-  resave: false,
-  saveUninitialized: true,
-  cookie: { sameSite: true },
-})
-)
-  
