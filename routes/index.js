@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-const story = require('../data/story.json')
+const story = require('../data/story.json') 
 
 router.get('/', function (req, res) {
   console.log(story.parts[0])
