@@ -6,53 +6,53 @@
       "text": "This is part 1",
       "options": [
         {
-          "id": 0,
+          "id": 1,
           "text": "This takes you to part 2",
-          "target": 1
+          "target": 3
         },
         {
-          "id": 1,
+          "id": 2,
           "text": "This takes you to part 3",
-          "target": 2
+          "target": 3
         }
       ]
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "Part 2",
       "text": "Choose a weapon",
       "image": "weapons.jpg",
       "options": [
         {
-          "id": 2,
-          "text": "Dark Sword",
-          "target": 
-        },
-        {
-          "id": 3,
-          "text": "Gladiator Sword",
-          "target": 
-        },
-        {
           "id": 4,
+          "text": "Dark Sword",
+          "target": 7
+        },
+        {
+          "id": 5,
+          "text": "Gladiator Sword",
+          "target": 7
+        },
+        {
+          "id": 6,
           "text": "Battle Axe",
-          "target": 
+          "target": 7
         }
       ]
     },
     {
-      "id": ,
+      "id": 7,
       "name": "Part 3",
       "text": "You set out on the road and eventually reach a crossing, which road to you go?",
       "image": "crossroad.jpg",
       "options": [
         {
-          "id": ,
+          "id": 8,
           "text": "Left",
-          "target": 
+          "target": 10
         },
         {
-          "id": ,
+          "id": 9,
           "text": "Right",
           "target": 
         }
@@ -60,79 +60,79 @@
     },
     
     {
-      "id": ,
+      "id": 10,
       "name": "Part 4",
       "text": "You eventually reach an old tower in a lake, do you go inside or continue forward?",
       "image": "tower.jpg",
       "options": [
         {
-          "id": ,
+          "id": 11,
           "text": "Go inside",
-          "target": 
+          "target": 13
         },
         {
-          "id": ,
+          "id": 12 ,
           "text": "Continue forward",
           "target": 
         }
       ]
     },
     {
-      "id": ,
+      "id": 13,
       "name": "Part 5",
       "text": "Entering the tower you see that it's mostly empty, a large chest sits in the middle of an open room. ",
       "image": "chest.jpg",
       "options": [
         {
-          "id": ,
+          "id": 14,
           "text": "Open it",
-          "target": 
+          "target": 16
         },
         {
-          "id": ,
+          "id":15 ,
           "text": "Let it be",
           "target": 
         }
       ]
     },
     {
-      "id": ,
+      "id": 16,
       "name": "Part 6",
       "text": "Out of the chest appears a golden bird, and water quickly begins flooding the castle.",
       "image": "goldenbird.jpg",
       "options": [
         {
-          "id": ,
+          "id": 17,
           "text": "Get the bird",
-          "target": 
+          "target": 19
         },
         {
-          "id": ,
+          "id": 18,
           "text": "Escape the tower",
-          "target": 
+          "target": 20
         }
       ]
     },
     {
-      "id": ,
+      "id": 19,
       "name": "Part 7",
       "text": "You run and jump trying to catch the bird and you accidentally hit your head, losing consciousness and drowning.",
       "image": "chest.jpg"
     
     },
     {
-      "id": ,
+      "id": 20 ,
       "name": "Part 7",
       "text": "Running out of the quickly flooding tower you look back as the entire building collapses",
       "image": "chest.jpg",
       "options": [
         {
-          "id": ,
+          "id": 21,
           "text": "Open it",
           "target": 
         },
         {
-          "id": ,
+          "id": 22,
           "text": "Let it be",
           "target": 
         }
