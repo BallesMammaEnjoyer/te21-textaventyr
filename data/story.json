@@ -21,36 +21,122 @@
       "id": 1,
       "name": "Part 2",
       "text": "Choose a weapon",
-      "image": "weapons.jpg", 
+      "image": "weapons.jpg",
       "options": [
         {
           "id": 2,
           "text": "Dark Sword",
-          "target": 0
-        }
+          "target": 
+        },
         {
           "id": 3,
           "text": "Gladiator Sword",
-          "target": 0
-        }
+          "target": 
+        },
         {
-          "id": 5,
+          "id": 4,
           "text": "Battle Axe",
-          "target": 0
+          "target": 
         }
       ]
     },
     {
-      "id": 2,
+      "id": ,
       "name": "Part 3",
-      "text": "This is part 3",
+      "text": "You set out on the road and eventually reach a crossing, which road to you go?",
+      "image": "crossroad.jpg",
       "options": [
         {
-          "id": 4,
-          "text": "Go back to part 2",
-          "target": 1
+          "id": ,
+          "text": "Left",
+          "target": 
+        },
+        {
+          "id": ,
+          "text": "Right",
+          "target": 
         }
       ]
-    }
+    },
+    
+    {
+      "id": ,
+      "name": "Part 4",
+      "text": "You eventually reach an old tower in a lake, do you go inside or continue forward?",
+      "image": "tower.jpg",
+      "options": [
+        {
+          "id": ,
+          "text": "Go inside",
+          "target": 
+        },
+        {
+          "id": ,
+          "text": "Continue forward",
+          "target": 
+        }
+      ]
+    },
+    {
+      "id": ,
+      "name": "Part 5",
+      "text": "Entering the tower you see that it's mostly empty, a large chest sits in the middle of an open room. ",
+      "image": "chest.jpg",
+      "options": [
+        {
+          "id": ,
+          "text": "Open it",
+          "target": 
+        },
+        {
+          "id": ,
+          "text": "Let it be",
+          "target": 
+        }
+      ]
+    },
+    {
+      "id": ,
+      "name": "Part 6",
+      "text": "Out of the chest appears a golden bird, and water quickly begins flooding the castle.",
+      "image": "goldenbird.jpg",
+      "options": [
+        {
+          "id": ,
+          "text": "Get the bird",
+          "target": 
+        },
+        {
+          "id": ,
+          "text": "Escape the tower",
+          "target": 
+        }
+      ]
+    },
+    {
+      "id": ,
+      "name": "Part 7",
+      "text": "You run and jump trying to catch the bird and you accidentally hit your head, losing consciousness and drowning.",
+      "image": "chest.jpg"
+    
+    },
+    {
+      "id": ,
+      "name": "Part 7",
+      "text": "Running out of the quickly flooding tower you look back as the entire building collapses",
+      "image": "chest.jpg",
+      "options": [
+        {
+          "id": ,
+          "text": "Open it",
+          "target": 
+        },
+        {
+          "id": ,
+          "text": "Let it be",
+          "target": 
+        }
+      ]
+    },
   ]
 }

@@ -1,7 +1,8 @@
 const express = require('express')
 const router = express.Router()
+const pool = require('../db')
 
-const story = require('../data/story.json') 
+const story = require('../data/story.json')
 
 router.get('/', function (req, res) {
   console.log(story.parts[0])
@@ -17,10 +18,25 @@ router.get('/story/:id', function (req, res) {
   res.render('part.njk', { title: part.name, part: part })
 })
 
-router.post('/username', function (req, res){
+router.post('/username', function (req, res) {
   req.session.username = req.body.username
   console.log(req.session.username)
   res.redirect('/')
+})
+
+router.get('/dbtest/:id', async (req, res) => {
+  try {
+    const id = req.params.id
+    const [parts] = await pool.promise().query(`SELECT * FROM mille_part WHERE id = ${id}`)                                                                             
+    const [options] = await pool
+      .promise()
+      .query(`SELECT * FROM mille_option WHERE part_id = ${id}`)
+    res.json({ parts, options })
+  }
+  catch (error) {
+    console.log(error)
+    res.sendStatus(500)
+  }
 })
 
 module.exports = router
