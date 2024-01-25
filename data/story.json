@@ -53,8 +53,8 @@
         },
         {
           "id": 9,
-          "text": "Right",
-          "target": 
+          "text": "Right"
+          
         }
       ]
     },
@@ -72,8 +72,8 @@
         },
         {
           "id": 12 ,
-          "text": "Continue forward",
-          "target": 
+          "text": "Continue forward"
+          
         }
       ]
     },
@@ -90,8 +90,8 @@
         },
         {
           "id":15 ,
-          "text": "Let it be",
-          "target": 
+          "text": "Let it be"
+          
         }
       ]
     },
@@ -117,7 +117,7 @@
       "id": 19,
       "name": "Part 7",
       "text": "You run and jump trying to catch the bird and you accidentally hit your head, losing consciousness and drowning.",
-      "image": "chest.jpg"
+      "image": "skull.jpg"
     
     },
     {
@@ -128,15 +128,15 @@
       "options": [
         {
           "id": 21,
-          "text": "Open it",
-          "target": 
+          "text": "Open it"
+          
         },
         {
           "id": 22,
-          "text": "Let it be",
-          "target": 
+          "text": "Let it be"
+          
         }
       ]
-    },
+    }
   ]
 }

@@ -31,7 +31,11 @@ router.get('/dbtest/:id', async (req, res) => {
     const [options] = await pool
       .promise()
       .query(`SELECT * FROM mille_option WHERE part_id = ${id}`)
-    res.json({ parts, options })
+    res.render('part.njk',{
+      username: req.session.username,
+      title: part.name,
+      part,
+    })
   }
   catch (error) {
     console.log(error)
